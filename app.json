@@ -1,0 +1,40 @@
+{
+  "expo": {
+    "name": "Fixora",
+    "slug": "fixora",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "dark",
+    "backgroundColor": "#130f1e",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#130f1e"
+    },
+    "android": {
+      "package": "com.fixora.app",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#130f1e"
+      },
+      "permissions": ["CAMERA", "RECORD_AUDIO"]
+    },
+    "plugins": [
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "Fixora uses the camera to highlight parts during your repair.",
+          "recordAudioAndroid": false
+        }
+      ],
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "Fixora needs your photos to compare your device with the tutorial.",
+          "cameraPermission": "Fixora uses the camera to photograph your device and repair."
+        }
+      ]
+    ]
+  }
+}
