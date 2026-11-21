@@ -19,8 +19,10 @@
         "backgroundColor": "#130f1e"
       },
       "permissions": [
-        "CAMERA",
-        "RECORD_AUDIO"
+        "android.permission.CAMERA",
+        "android.permission.RECORD_AUDIO",
+        "android.permission.CAMERA",
+        "android.permission.RECORD_AUDIO"
       ]
     },
     "plugins": [
@@ -39,6 +41,11 @@
         }
       ],
       "expo-status-bar"
-    ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "3700086d-adaa-42ee-b116-e38496339c0e"
+      }
+    }
   }
 }
