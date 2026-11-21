@@ -18,7 +18,10 @@
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#130f1e"
       },
-      "permissions": ["CAMERA", "RECORD_AUDIO"]
+      "permissions": [
+        "CAMERA",
+        "RECORD_AUDIO"
+      ]
     },
     "plugins": [
       [
@@ -34,7 +37,8 @@
           "photosPermission": "Fixora needs your photos to compare your device with the tutorial.",
           "cameraPermission": "Fixora uses the camera to photograph your device and repair."
         }
-      ]
+      ],
+      "expo-status-bar"
     ]
   }
 }
